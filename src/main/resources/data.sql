@@ -1,0 +1,1 @@
+insert into paper (id,color,price,size,type) values(9002,'green',1,'big','printer');
