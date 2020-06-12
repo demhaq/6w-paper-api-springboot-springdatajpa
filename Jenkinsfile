@@ -19,7 +19,7 @@ pipeline {
               // branch: the branch that you want to build
               // credentialsId: the ID of the credentials for your GitLab repo that is being managed by Jenkins
               // url: url to your repo
-              git branch: 'master', credentialsId: '6b1b9ef6-b68d-4b20-b61d-beaa2ec83571', url: 'https://github.com/demhaq/shoptote.git'
+              git branch: 'master', credentialsId: '6b1b9ef6-b68d-4b20-b61d-beaa2ec83571', url: 'https://github.com/demhaq/6w-paper-api-springboot-springdatajpa.git'
            }
         }
         stage ('Build') {
