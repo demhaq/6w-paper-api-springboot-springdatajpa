@@ -48,6 +48,11 @@ pipeline {
                 }
             }
         }
+        stage('Run Spring App'){
+            steps{
+                sh 'nohup mvn spring-boot:run &'
+            }
+        }
         
         
     }
